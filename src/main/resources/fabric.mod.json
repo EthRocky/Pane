@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "A GUI library: a modern component kit with an optional HTML/CSS-like authoring layer, rendered through Minecraft's own pipeline.",
+  "authors": ["EthRocky"],
+  "license": "MIT",
+  "icon": "assets/pane/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.ethrocky.pane.PaneMod"],
+    "client": ["net.ethrocky.pane.PaneClient"]
+  },
+  "mixins": ["pane.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.17",
+    "minecraft": "${minecraft}",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.ethrocky.pane.mixin",
+  "compatibilityLevel": "${java}",
+  "client": [
+    "MouseMixin",
+    "KeyboardMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
